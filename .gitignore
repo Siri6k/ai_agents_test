@@ -1,0 +1,62 @@
+# 🐍 Fichiers Python inutiles
+__pycache__/
+*.py[cod]
+*.so
+*.pyd
+*.pyo
+
+# 📓 Notebooks temporaires
+.ipynb_checkpoints/
+
+# 📦 Fichiers d'environnement
+env/
+venv/
+.env/
+*.env
+*.venv
+
+# ⚙️ Configuration IDE
+.vscode/
+.idea/
+*.sublime-project
+*.sublime-workspace
+
+# 📁 Données temporaires
+*.csv
+*.tsv
+*.log
+*.out
+*.tmp
+*.bak
+
+# 📊 Résultats modèles / checkpoints
+*.h5
+*.hdf5
+*.ckpt
+*.pb
+*.tflite
+*.onnx
+*.pth
+*.pt
+*.npz
+*.npy
+
+# 📷 Images de résultats
+*.png
+*.jpg
+*.jpeg
+*.gif
+*.svg
+
+# 🚀 Dossiers de build
+build/
+dist/
+*.egg-info/
+
+# 🔒 Auth/API files
+token.json
+credentials.json
+secrets.json
+
+# 💡 Jupyter outputs (optionnel)
+*.nbconvert.ipynb
